@@ -1,4 +1,4 @@
 
 # Peoples DB
 
-![Alt text](https://github.com/Hassan-Mallah/React_API/blob/master/Screenshot.gif)
+![Alt text](https://github.com/Hassan-Mallah/MySQL/blob/master/Peoples%20DB.png)
