@@ -12,7 +12,7 @@
 газпрома и т.д.)
 • quantity – количество передаваемого актива
 Tables:
-https://github.com/Hassan-Mallah/MySQL/blob/master/Turnover.png
+https://github.com/Hassan-Mallah/MySQL/blob/master/Accounts%20%2B%20Transactions.png
 
  3.2.1
 Отобрать активные счета по которым есть проводки как минимум по двум разным активам.
