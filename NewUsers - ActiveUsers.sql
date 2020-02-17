@@ -9,6 +9,9 @@ Requested 4 4 columns:
 - Number of new users (coming this month)
 - The number of users who returned to the second calendar month after registration
 - Return probability
+
+Expected output:
+https://drive.google.com/file/d/1sx8MaX6oFYirTXaN5-yq9IkozvuYv8K3/view
 */
 
 select 
