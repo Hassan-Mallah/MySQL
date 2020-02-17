@@ -1,15 +1,18 @@
 /*
-Year and month of user appearance in the system
-
-Number of new users (coming this month)
-
-The number of users who returned to the second calendar month after registration
-
-Return probability
+Есть таблица событий, в которой собирается вся активность пользователя в продукте. Колонки:
+- user_id
+- event_timestamp
+- event_name
+-------------------
+Requested 4 4 columns: 
+- Year and month of user appearance in the system
+- Number of new users (coming this month)
+- The number of users who returned to the second calendar month after registration
+- Return probability
 */
 
 select 
-	distinct(date_format(E1.event_timestamp, '%Y-%m')) 'Month',
+    distinct(date_format(E1.event_timestamp, '%Y-%m')) 'Month',
     B.NewUsers,
     C.MAU,
     concat(round(100 * C.MAU /B.NewUsers), '%') AS `Return Probability`
